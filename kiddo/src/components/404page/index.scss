@@ -1,0 +1,14 @@
+.pagenot {
+    h1{
+    margin:10% ;
+    text-align: center;
+    color: aliceblue;
+}
+
+
+$small:600px;
+
+@media screen and (max-width: $small){
+    margin-top: 50%;
+}
+}

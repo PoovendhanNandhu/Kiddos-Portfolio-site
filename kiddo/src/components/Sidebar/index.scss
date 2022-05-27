@@ -1,0 +1,179 @@
+.nav-bar{
+    $small: 600px;
+    background: #181818;
+    width: 60px;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    z-index: 3;
+    min-height: 500px;
+   
+
+    .logo{
+        display: block;
+        padding: 5px 0;
+
+        img{
+            display: block;
+            margin: 0px auto;
+            width: 50px;
+            height: auto;
+            @media screen and (max-width: $small) {
+                margin-left: 15px;
+            }
+
+            &.sub-logo{
+                width: 66px;
+            }
+        }
+        @media screen and (max-width: $small) {
+            margin-left: 15px;
+        }
+    }
+
+    nav{
+        display: block;
+        text-align: center;
+        position: absolute;
+        height: 220px;
+        top: 50%;
+        margin-top: -120px;
+        width: 100%;
+        a{
+            font-size: 22px;
+            color: #4d4d4e;
+            display: block;
+            line-height: 52px;
+            position: relative;
+            text-decoration: none;
+
+            i{
+                transition: all 0.3s ease-out;
+            }
+
+            &:hover{
+                color: #ffd700;
+                
+            svg{
+                opacity: 0;
+            }
+
+            &:after{
+                opacity: 1;
+            }
+            }
+
+            &:after{
+                content: '';
+                font-size: 9px;
+                letter-spacing: 2px;
+                position: absolute;
+                bottom: 0;
+                display: block;
+                width: 100%;
+                text-align: center;
+                opacity: 0;
+                transition: all 0.3s ease-out;
+            }
+            &:first-child{
+                &::after{
+                    content: 'HOME';
+                }
+            }
+
+            
+        }
+
+        a.about-link{
+            &:after{
+                content: 'ABOUT';
+            }
+        }
+        a.contact-link{
+            &:after{
+                content: 'CONTACT';
+            }
+        }
+        a.active{
+            svg{
+                color: #ffd700;
+            }
+        }
+    }
+
+    ul{
+        position: absolute;
+        bottom: 20px;
+        width: 100%;
+        display: block;
+        padding: 0%;
+        list-style: none;
+        text-align: center;
+        margin: 0%;
+
+        li{
+            a{
+                padding: 7px 0;
+                display: block;
+                font-size: 15px;
+                line-height: 16px;
+
+                &:hover svg{
+                    color: #ffd700;
+                }
+            }
+        }
+    }
+
+}
+
+$small: 600px;
+$medium: 900px;
+
+.nav-bar {
+  //some CSS
+  @media screen and (max-width: $small) {
+    width: 100%;
+    height: 60px;
+   
+    top: 0;
+    left: 0;
+    z-index: 3;
+    min-height: 0;
+
+    .ul12{
+        display: none;
+    }
+
+
+  }
+  @media screen and (min-width: $medium) {
+    //do Smth
+  }
+}
+@media screen and (max-width: $small) {
+
+
+
+      .nav-bar nav {
+        width: 52%;
+      
+        left: 50%;
+        margin-left: -20%;
+        float: left;
+        overflow: hidden;
+        text-align: center;
+        height: 60px;
+        margin-top: 0;
+      }
+      .nav-bar nav a {
+        float: left;
+        margin-left: 14%;
+        line-height: 7px;
+        height: 60px
+      }
+      .nav-bar nav a:first-child {
+        margin-left: 0
+      }   
+
+    }
