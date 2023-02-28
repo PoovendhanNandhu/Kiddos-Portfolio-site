@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "http://kiddoace.kiddoportfolio.online",
+  "homepage": "https://poovendhannandhu.github.io/Kiddos-Portfolio-site/kiddo",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
@@ -26,7 +26,7 @@
     "react-leaflet": "^4.0.0",
     "react-loaders": "^3.0.1",
     "react-router-dom": "^6.3.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "react-spline": "^1.2.1",
     "react-svg-drawing": "^1.0.1",
     "react-tsparticles": "^2.0.6",
@@ -35,6 +35,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
