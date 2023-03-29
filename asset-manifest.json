@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Kiddos-Portfolio-site/static/css/main.1dddee11.css",
+    "main.js": "/Kiddos-Portfolio-site/static/js/main.9c537c2b.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Kiddos-Portfolio-site/static/js/787.28cb0dcd.chunk.js",
+    "static/media/P25png.png": "/Kiddos-Portfolio-site/static/media/P25png.af13038a066934cbd5e6.png",
+    "static/media/helvetica-neu.ttf": "/Kiddos-Portfolio-site/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff2": "/Kiddos-Portfolio-site/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/P_sub1.png": "/Kiddos-Portfolio-site/static/media/P_sub1.d2a3870b81863878e524.png",
+    "static/media/P1.png": "/Kiddos-Portfolio-site/static/media/P1.ae4fd5614182bae1d012.png",
+    "static/media/logo-s.png": "/Kiddos-Portfolio-site/static/media/logo-s.bfc9f81846bda5218dab.png",
+    "static/media/CoolveticaRg-Regular.woff2": "/Kiddos-Portfolio-site/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/Kiddos-Portfolio-site/index.html",
+    "main.1dddee11.css.map": "/Kiddos-Portfolio-site/static/css/main.1dddee11.css.map",
+    "main.9c537c2b.js.map": "/Kiddos-Portfolio-site/static/js/main.9c537c2b.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Kiddos-Portfolio-site/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1dddee11.css",
+    "static/js/main.9c537c2b.js"
+  ]
+}
