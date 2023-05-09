@@ -30,7 +30,7 @@
     "react-spline": "^1.2.1",
     "react-svg-drawing": "^1.0.1",
     "react-tsparticles": "^2.0.6",
-    "sass": "^1.51.0",
+    "sass": "^1.62.0",
     "three": "^0.140.2",
     "web-vitals": "^2.1.4"
   },
