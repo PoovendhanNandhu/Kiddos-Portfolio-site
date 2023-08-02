@@ -12,7 +12,7 @@
     "@fortawesome/react-fontawesome": "^0.1.18",
     "@react-spring/web": "^9.4.5",
     "@react-three/drei": "^9.11.2",
-    "@react-three/fiber": "^8.0.19",
+    "@react-three/fiber": "^8.12.1",
     "@splinetool/react-spline": "^2.2.1",
     "@splinetool/runtime": "^0.9.57",
     "@testing-library/jest-dom": "^5.16.4",
